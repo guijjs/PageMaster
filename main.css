@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  font-size: 1.6rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("/assets/images/bg-header-desktop.png");
+  background-size: contain;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.downloadButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.downloadButtons div {
+  margin-left: 1rem;
+  padding: 1.5rem 3.2rem;
+  background-color: green;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=main.css.map */

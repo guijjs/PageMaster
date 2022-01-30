@@ -1,0 +1,7 @@
+@import 'mixins';
+header{
+    @include flexCenter;
+    flex-direction: column;
+    background-image: url('/assets/images/bg-header-desktop.png');
+    background-size: contain;
+}

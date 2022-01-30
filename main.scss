@@ -1,0 +1,20 @@
+@import 'assets/scss/colors';
+@import 'assets/scss/font-sizes';
+@import 'assets/scss/mixins';
+@import 'assets/scss/header';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.downloadButtons{
+    display: flex;
+    div{
+        margin-left: 1rem;
+        padding: 1.5rem 3.2rem;
+        background-color: green;
+        border-radius: 2rem;
+        color: $white;
+    }
+}
