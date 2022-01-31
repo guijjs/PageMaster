@@ -1,12 +1,101 @@
+.mainContent main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainContent main .main--texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.mainContent main .main--texts h2 {
+  margin-bottom: 1em;
+}
+
+.mainContent main .main--funcionalities {
+  margin-top: 3.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContent main .main--funcionalities .macImage {
+  margin-right: 8.5em;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul {
+  list-style: none;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul h3 {
+  margin-bottom: 1em;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul li {
+  margin-bottom: 2.5em;
+}
+
 html {
   font-size: 62.5%;
 }
 
 html body {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+}
+
+html body h1 {
+  font-size: 3em;
+}
+
+html body h2 {
+  font-size: 2em;
+}
+
+.funcionalities span {
+  font-size: 0.85em;
+}
+
+.tools--list h4 {
+  font-size: 1.25em;
+}
+
+.tools--list span {
+  font-size: 0.85em;
+}
+
+.tools--list p {
+  font-size: 0.85em;
 }
 
 header {
+  padding: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +111,268 @@ header {
           flex-direction: column;
   background-image: url("/assets/images/bg-header-desktop.png");
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .header--texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header h1 {
+  margin: 2.5rem 0 2.5rem 0;
+  color: #4c545d;
+}
+
+header .header--span {
+  text-align: center;
+  line-height: 2.5rem;
+  width: 65%;
+}
+
+header .downloadButtons.header {
+  margin: 10rem 0 0 0;
+}
+
+.mainContent main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainContent main .main--texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.mainContent main .main--texts h2 {
+  margin-bottom: 1em;
+}
+
+.mainContent main .main--funcionalities {
+  margin-top: 3.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContent main .main--funcionalities .macImage {
+  margin-right: 8.5em;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul {
+  list-style: none;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul h3 {
+  margin-bottom: 1em;
+}
+
+.mainContent main .main--funcionalities .funcionalities ul li {
+  margin-bottom: 2.5em;
+}
+
+.mobilitySection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 7.5em;
+}
+
+.mobilitySection .mobility--texts {
+  text-align: center;
+  margin-bottom: 7em;
+}
+
+.mobilitySection .mobility--texts h2 {
+  margin-bottom: 0.7em;
+}
+
+.toolsProductivity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toolsProductivity .productivity--texts {
+  text-align: center;
+}
+
+.toolsProductivity .productivity--texts h2 {
+  margin-bottom: 0.85em;
+}
+
+.toolsProductivity .tools--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.5em;
+}
+
+.toolsProductivity .tools--list .tools--desc {
+  width: 50%;
+  text-align: center;
+}
+
+.toolsProductivity .tools--list .tools--desc h4 {
+  margin-top: 1.2em;
+}
+
+.toolsProductivity .tools--list .tools--desc div {
+  margin-bottom: 1.2em;
+}
+
+.enterprises {
+  margin: 5em 0;
+}
+
+.enterprises ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10em;
+}
+
+.enterprises ul li {
+  margin: auto;
+}
+
+.platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.platforms .platforms--texts {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.platforms .platforms--texts h2 {
+  margin-bottom: 0.65em;
+}
+
+footer {
+  margin-top: 10em;
+  background-color: #9fabb2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 5em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #4c545d;
+}
+
+footer ul li {
+  margin-right: 1em;
+}
+
+footer div img {
+  width: 3em;
+}
+
+footer .options--footer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+}
+
+footer .social-media--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 * {
@@ -38,10 +389,56 @@ header {
   display: flex;
 }
 
-.downloadButtons div {
+.downloadButtons .downloadButtonIos {
+  padding: 1.5rem 3rem;
+  background-color: #26baa4;
+  border-radius: 5rem;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2.5px 1px #1B6C5F;
+          box-shadow: 0 2.5px 1px #1B6C5F;
+  -webkit-transition: 0.35s background-color;
+  transition: 0.35s background-color;
+}
+
+.downloadButtons .downloadButtonIos:hover {
+  background-color: #1B6C5F;
+}
+
+.downloadButtons .downloadButtonMac {
   margin-left: 1rem;
-  padding: 1.5rem 3.2rem;
-  background-color: green;
-  border-radius: 2rem;
+  padding: 1.5rem 3rem;
+  background-color: #6173ff;
+  border-radius: 5rem;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2.5px 1px #2F3878;
+          box-shadow: 0 2.5px 1px #2F3878;
+  -webkit-transition: 0.35s background-color;
+  transition: 0.35s background-color;
+}
+
+.downloadButtons .downloadButtonMac:hover {
+  background-color: #2F3878;
+}
+
+h2 {
+  color: #4c545d;
+}
+
+h3 {
+  color: #4c545d;
+}
+
+h4 {
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+}
+
+span {
+  color: #9fabb2;
 }
 /*# sourceMappingURL=main.css.map */

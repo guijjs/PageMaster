@@ -1,0 +1,14 @@
+@import 'colors';
+@import 'mixins';
+.mobilitySection{
+    @include flexCenter;
+    flex-direction: column;
+    margin-top: 7.5em;
+    .mobility--texts{
+        text-align: center;
+        h2{
+            margin-bottom: 0.7em;
+        }
+        margin-bottom: 7em;
+    }
+}

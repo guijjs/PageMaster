@@ -1,0 +1,25 @@
+@import 'colors';
+@import 'mixins';
+.toolsProductivity{
+    @include flexColumnCenter;
+    .productivity--texts{
+        text-align: center;
+        h2{
+            margin-bottom: 0.85em;
+        }
+    }
+    .tools--list{
+        @include flexCenter;
+        margin-top: 2.5em;
+        .tools--desc{
+            width: 50%;
+            text-align: center;
+            h4{
+                margin-top: 1.2em;
+            }
+            div{
+                margin-bottom: 1.2em;
+            }
+        }
+    }
+}

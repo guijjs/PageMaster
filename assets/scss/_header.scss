@@ -1,7 +1,26 @@
 @import 'mixins';
+@import 'colors';
 header{
+    padding: 10rem;
     @include flexCenter;
     flex-direction: column;
     background-image: url('/assets/images/bg-header-desktop.png');
     background-size: contain;
+    background-repeat: no-repeat;
+    .header--texts{
+        @include flexCenter;
+        flex-direction: column;
+    }
+    h1{
+        margin: 2.5rem 0 2.5rem 0;
+        color: $grayDarkness
+    }
+    .header--span{
+        text-align: center;
+        line-height: 2.5rem;
+        width: 65%;
+    }
+    .downloadButtons.header{
+        margin: 10rem 0 0 0;
+    }
 }

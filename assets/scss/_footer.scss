@@ -1,0 +1,30 @@
+footer{
+    margin-top: 10em;
+    background-color: $gray;
+    @include flexBetween;
+    padding: 1em 5em;
+    ul{
+        list-style: none;
+        li a{
+            text-decoration: none;
+            color: $grayDarkness;
+        }
+        li{
+            margin-right: 1em;
+        }
+    }
+    div{
+        img{
+            width: 3em;
+        }
+    }
+    .options--footer{
+        flex: 1;
+        margin-left: 5em;
+        display: flex;
+        padding: 1em;
+    }
+    .social-media--list{
+        display: flex;
+    }
+}

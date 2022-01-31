@@ -1,0 +1,13 @@
+@import 'colors';
+@import 'mixins';
+.enterprises{
+    margin: 5em 0;
+    ul{
+        list-style: none;
+        @include flexCenter;
+        padding: 0 10em;
+        li{
+            margin: auto;
+        }
+    }
+}

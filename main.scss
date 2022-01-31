@@ -2,6 +2,14 @@
 @import 'assets/scss/font-sizes';
 @import 'assets/scss/mixins';
 @import 'assets/scss/header';
+@import 'assets/scss/mainContentSection';
+@import 'assets/scss/mobilitySection';
+@import 'assets/scss/toolsProductivitySection';
+@import 'assets/scss/enterprisesSection';
+@import 'assets/scss/platforms';
+@import 'assets/scss/footer';
+
+
 *{
     padding: 0;
     margin: 0;
@@ -10,11 +18,44 @@
 }
 .downloadButtons{
     display: flex;
-    div{
-        margin-left: 1rem;
-        padding: 1.5rem 3.2rem;
-        background-color: green;
-        border-radius: 2rem;
+    .downloadButtonIos{
+        padding: 1.5rem 3rem;
+        background-color: $StrongCyan;
+        border-radius: 5rem;
         color: $white;
+        cursor: pointer;
+        box-shadow: 0 2.5px 1px $darkCyan;
+        transition: 0.35s background-color;
+        &:hover{
+            background-color: $darkCyan;
+        }
     }
+    .downloadButtonMac{
+        margin-left: 1rem;
+        padding: 1.5rem 3rem;
+        background-color: $lightBlue;
+        border-radius: 5rem;
+        color: $white;
+        cursor: pointer;
+        box-shadow: 0 2.5px 1px $darkBlue;
+        transition: 0.35s background-color;
+        &:hover{
+            background-color: $darkBlue;
+        }
+    }
+}
+h2{
+    color: $grayDarkness;
+}
+h3{
+    color: $grayDarkness;
+}
+h4{
+    color: $grayDarkness;
+}
+p{
+    color: $gray;
+}
+span{
+    color: $gray;
 }
