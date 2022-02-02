@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'mixins';
+@import 'responsiveness';
 .mainContent{
     main{
         @include flexCenter;
@@ -17,12 +18,50 @@
             width: 100%;
             display: flex;
             align-items: center;
+            @include cellphoneSmall{
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            @include cellphone{
+                flex-direction: column;
+                justify-content: center;
+            }
+            @include tablet {
+                flex-direction: column;
+                justify-content: center;
+            }
             .macImage{
+                @include cellphoneSmall{
+                    text-align: center;
+                    img{
+                        width: 80%;
+                    }
+                    margin: 3.5em 0 3.5em 0;
+                }
+
+                @include cellphone{
+                    text-align: center;
+                    img{
+                        width: 80%;
+                    }
+                    margin: 3.5em 0 3.5em 0;
+                }
+
+                @include tablet{
+                    img{
+                        width: 35em;
+                    }
+                    margin: 3.5em 0 3.5em 0;
+                }
                 margin-right: 8.5em;
             }
             .funcionalities{
                 ul{
                     list-style: none;
+                    @include tablet {
+                        text-align: center;
+                    }
                     h3{
                         margin-bottom: 1em;
                     }

@@ -1,6 +1,16 @@
 @import './mainContentSection';
+@import './responsiveness';
 html{
     font-size: 62.5%;
+    @include cellphoneSmall{
+        font-size: 52.5%;
+    }
+    @include cellphone{
+        font-size: 72.5%;
+    }
+    @include tablet{
+        font-size: 52.5%;
+    }
     body{
         font-size: 1.8rem;
         h1{

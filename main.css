@@ -46,12 +46,83 @@
           align-items: center;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .mainContent main .main--funcionalities .macImage {
   margin-right: 8.5em;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .mainContent main .main--funcionalities .macImage {
+    text-align: center;
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .mainContent main .main--funcionalities .macImage {
+    text-align: center;
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities .macImage {
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 35em;
+  }
+}
+
 .mainContent main .main--funcionalities .funcionalities ul {
   list-style: none;
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities .funcionalities ul {
+    text-align: center;
+  }
 }
 
 .mainContent main .main--funcionalities .funcionalities ul h3 {
@@ -64,6 +135,24 @@
 
 html {
   font-size: 62.5%;
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  html {
+    font-size: 72.5%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  html {
+    font-size: 52.5%;
+  }
 }
 
 html body {
@@ -130,6 +219,24 @@ header .header--texts {
           flex-direction: column;
 }
 
+@media (max-width: 768px) and (min-width: 621px) {
+  header .header--texts {
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  header .header--texts {
+    text-align: center;
+  }
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  header .header--texts {
+    text-align: center;
+  }
+}
+
 header h1 {
   margin: 2.5rem 0 2.5rem 0;
   color: #4c545d;
@@ -193,12 +300,83 @@ header .downloadButtons.header {
           align-items: center;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .mainContent main .main--funcionalities .macImage {
   margin-right: 8.5em;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .mainContent main .main--funcionalities .macImage {
+    text-align: center;
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .mainContent main .main--funcionalities .macImage {
+    text-align: center;
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities .macImage {
+    margin: 3.5em 0 3.5em 0;
+  }
+  .mainContent main .main--funcionalities .macImage img {
+    width: 35em;
+  }
+}
+
 .mainContent main .main--funcionalities .funcionalities ul {
   list-style: none;
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mainContent main .main--funcionalities .funcionalities ul {
+    text-align: center;
+  }
 }
 
 .mainContent main .main--funcionalities .funcionalities ul h3 {
@@ -235,6 +413,30 @@ header .downloadButtons.header {
   margin-bottom: 0.7em;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .mobilitySection {
+    text-align: center;
+  }
+  .mobilitySection img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .mobilitySection {
+    text-align: center;
+  }
+  .mobilitySection img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 621px) {
+  .mobilitySection img {
+    width: 35em;
+  }
+}
+
 .toolsProductivity {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,6 +471,24 @@ header .downloadButtons.header {
   margin-top: 2.5em;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  .toolsProductivity .tools--list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .toolsProductivity .tools--list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .toolsProductivity .tools--list .tools--desc {
   width: 50%;
   text-align: center;
@@ -276,6 +496,19 @@ header .downloadButtons.header {
 
 .toolsProductivity .tools--list .tools--desc h4 {
   margin-top: 1.2em;
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .toolsProductivity .tools--list .tools--desc h4 {
+    margin-top: 0;
+  }
+  .toolsProductivity .tools--list .tools--desc p {
+    margin-bottom: 3em;
+  }
+  .toolsProductivity .tools--list .tools--desc span {
+    display: block;
+    margin-bottom: 3em;
+  }
 }
 
 .toolsProductivity .tools--list .tools--desc div {
@@ -304,6 +537,39 @@ header .downloadButtons.header {
   margin: auto;
 }
 
+@media (max-width: 768px) and (min-width: 621px) {
+  .enterprises ul img {
+    width: 7em;
+  }
+  .enterprises ul li {
+    margin: 1em;
+  }
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  .enterprises ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .enterprises ul li {
+    margin: 1.5em 0;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  .enterprises ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .enterprises ul li {
+    margin: 2em 0;
+  }
+}
+
 .platforms {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,7 +594,7 @@ header .downloadButtons.header {
 
 footer {
   margin-top: 10em;
-  background-color: #9fabb2;
+  background-color: #C7D1D6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,6 +605,24 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding: 1em 5em;
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 footer ul {
@@ -352,6 +636,22 @@ footer ul li a {
 
 footer ul li {
   margin-right: 1em;
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  footer div {
+    margin-right: 0.8em;
+  }
+}
+
+footer div img {
+  width: 3em;
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  footer div {
+    margin-right: 0.8em;
+  }
 }
 
 footer div img {
@@ -369,10 +669,67 @@ footer .options--footer {
   padding: 1em;
 }
 
+@media (max-width: 374px) and (min-width: 320px) {
+  footer .options--footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    margin: 0;
+  }
+  footer .options--footer li {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (max-width: 620px) and (min-width: 375px) {
+  footer .options--footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    margin: 0;
+  }
+  footer .options--footer li {
+    margin-bottom: 1.5em;
+  }
+}
+
 footer .social-media--list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #active a {
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+footer #active a:hover {
+  color: #26baa4;
+}
+
+footer img[alt="TwitterIcon"] {
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+footer img[alt="TwitterIcon"]:hover {
+  -webkit-filter: invert(61%) sepia(35%) saturate(5788%) hue-rotate(161deg) brightness(96%) contrast(102%);
+          filter: invert(61%) sepia(35%) saturate(5788%) hue-rotate(161deg) brightness(96%) contrast(102%);
 }
 
 * {
@@ -395,14 +752,16 @@ footer .social-media--list {
   border-radius: 5rem;
   color: #FFF;
   cursor: pointer;
-  -webkit-box-shadow: 0 2.5px 1px #1B6C5F;
-          box-shadow: 0 2.5px 1px #1B6C5F;
-  -webkit-transition: 0.35s background-color;
-  transition: 0.35s background-color;
+  -webkit-box-shadow: 0 2.5px 1px #509C8E;
+          box-shadow: 0 2.5px 1px #509C8E;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
 }
 
 .downloadButtons .downloadButtonIos:hover {
-  background-color: #1B6C5F;
+  background-color: #4DDBC4;
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
 }
 
 .downloadButtons .downloadButtonMac {
@@ -412,14 +771,16 @@ footer .social-media--list {
   border-radius: 5rem;
   color: #FFF;
   cursor: pointer;
-  -webkit-box-shadow: 0 2.5px 1px #2F3878;
-          box-shadow: 0 2.5px 1px #2F3878;
-  -webkit-transition: 0.35s background-color;
-  transition: 0.35s background-color;
+  -webkit-box-shadow: 0 2.5px 1px #58609F;
+          box-shadow: 0 2.5px 1px #58609F;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
 }
 
 .downloadButtons .downloadButtonMac:hover {
-  background-color: #2F3878;
+  background-color: #7684F2;
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
 }
 
 h2 {

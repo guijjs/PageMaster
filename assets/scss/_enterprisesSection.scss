@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'mixins';
+@import './responsiveness';
 .enterprises{
     margin: 5em 0;
     ul{
@@ -8,6 +9,26 @@
         padding: 0 10em;
         li{
             margin: auto;
+        }
+        @include tablet{
+            img{
+                width: 7em;
+            }
+            li{
+                margin: 1em;
+            }
+        }
+        @include cellphoneSmall{
+            flex-direction: column;
+            li{
+                margin: 1.5em 0;
+            }
+        }
+        @include cellphone{
+            flex-direction: column;
+            li{
+                margin: 2em 0;
+            }
         }
     }
 }

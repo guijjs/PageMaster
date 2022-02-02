@@ -1,7 +1,13 @@
 footer{
     margin-top: 10em;
-    background-color: $gray;
+    background-color: $footerBg;
     @include flexBetween;
+    @include cellphoneSmall{
+        flex-direction: column;
+    }
+    @include cellphone{
+        flex-direction: column;
+    }
     padding: 1em 5em;
     ul{
         list-style: none;
@@ -14,6 +20,15 @@ footer{
         }
     }
     div{
+        @include cellphoneSmall{
+            margin-right: 0.8em;
+        }
+        img{
+            width: 3em;
+        }
+        @include cellphone{
+            margin-right: 0.8em;
+        }
         img{
             width: 3em;
         }
@@ -23,8 +38,41 @@ footer{
         margin-left: 5em;
         display: flex;
         padding: 1em;
+        @include cellphoneSmall{
+            flex-direction: column;
+            text-align: center;
+            flex: none;
+            margin: 0;
+            li{
+                margin-bottom: 1.5em;
+            }
+        }
+
+        @include cellphone{
+            flex-direction: column;
+            text-align: center;
+            flex: none;
+            margin: 0;
+            li{
+                margin-bottom: 1.5em;
+            }
+        }
     }
     .social-media--list{
         display: flex;
+        align-items: center;
+    }
+    #active a{
+        transition: 0.35s;
+    }
+    #active a:hover{
+        color: $StrongCyan;
+    }
+    img[alt="TwitterIcon"]{
+        transition: 0.35s;
+        cursor: pointer;
+    }
+    img[alt="TwitterIcon"]:hover{
+        filter: invert(61%) sepia(35%) saturate(5788%) hue-rotate(161deg) brightness(96%) contrast(102%);
     }
 }

@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'mixins';
+@import './responsiveness';
 .toolsProductivity{
     @include flexColumnCenter;
     .productivity--texts{
@@ -11,11 +12,29 @@
     .tools--list{
         @include flexCenter;
         margin-top: 2.5em;
+        @include cellphoneSmall{
+            flex-direction: column;
+        }
+        @include cellphone{
+            flex-direction: column;
+        }
         .tools--desc{
             width: 50%;
             text-align: center;
             h4{
                 margin-top: 1.2em;
+            }
+            @include cellphone{
+                h4{
+                    margin-top: 0;
+                }
+                p{
+                    margin-bottom: 3em;
+                }
+                span{
+                    display: block;
+                    margin-bottom: 3em;
+                }
             }
             div{
                 margin-bottom: 1.2em;

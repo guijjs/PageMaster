@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'mixins';
+@import './responsiveness';
 .mobilitySection{
     @include flexCenter;
     flex-direction: column;
@@ -10,5 +11,22 @@
             margin-bottom: 0.7em;
         }
         margin-bottom: 7em;
+    }
+    @include cellphoneSmall{
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+    @include cellphone{
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+    @include tablet {
+        img{
+            width: 35em;
+        }
     }
 }

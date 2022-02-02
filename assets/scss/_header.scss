@@ -1,5 +1,6 @@
 @import 'mixins';
 @import 'colors';
+@import './responsiveness';
 header{
     padding: 10rem;
     @include flexCenter;
@@ -10,6 +11,15 @@ header{
     .header--texts{
         @include flexCenter;
         flex-direction: column;
+        @include tablet{
+            text-align: center;
+        }
+        @include cellphone{
+            text-align: center;
+        }
+        @include cellphoneSmall{
+            text-align: center;
+        }
     }
     h1{
         margin: 2.5rem 0 2.5rem 0;
