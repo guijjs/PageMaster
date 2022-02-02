@@ -1,4 +1,4 @@
-.mainContent main {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,7 +14,7 @@
           flex-direction: column;
 }
 
-.mainContent main .main--texts {
+main .main--texts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,11 +31,11 @@
   text-align: center;
 }
 
-.mainContent main .main--texts h2 {
+main .main--texts h2 {
   margin-bottom: 1em;
 }
 
-.mainContent main .main--funcionalities {
+main .main--funcionalities {
   margin-top: 3.5em;
   width: 100%;
   display: -webkit-box;
@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 374px) and (min-width: 320px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 620px) and (min-width: 375px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -82,54 +82,54 @@
   }
 }
 
-.mainContent main .main--funcionalities .macImage {
+main .main--funcionalities .macImage {
   margin-right: 8.5em;
 }
 
 @media (max-width: 374px) and (min-width: 320px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     text-align: center;
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 80%;
   }
 }
 
 @media (max-width: 620px) and (min-width: 375px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     text-align: center;
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 80%;
   }
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 35em;
   }
 }
 
-.mainContent main .main--funcionalities .funcionalities ul {
+main .main--funcionalities .funcionalities ul {
   list-style: none;
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities .funcionalities ul {
+  main .main--funcionalities .funcionalities ul {
     text-align: center;
   }
 }
 
-.mainContent main .main--funcionalities .funcionalities ul h3 {
+main .main--funcionalities .funcionalities ul h3 {
   margin-bottom: 1em;
 }
 
-.mainContent main .main--funcionalities .funcionalities ul li {
+main .main--funcionalities .funcionalities ul li {
   margin-bottom: 2.5em;
 }
 
@@ -252,7 +252,7 @@ header .downloadButtons.header {
   margin: 10rem 0 0 0;
 }
 
-.mainContent main {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,7 +268,7 @@ header .downloadButtons.header {
           flex-direction: column;
 }
 
-.mainContent main .main--texts {
+main .main--texts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,11 +285,11 @@ header .downloadButtons.header {
   text-align: center;
 }
 
-.mainContent main .main--texts h2 {
+main .main--texts h2 {
   margin-bottom: 1em;
 }
 
-.mainContent main .main--funcionalities {
+main .main--funcionalities {
   margin-top: 3.5em;
   width: 100%;
   display: -webkit-box;
@@ -301,7 +301,7 @@ header .downloadButtons.header {
 }
 
 @media (max-width: 374px) and (min-width: 320px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -313,7 +313,7 @@ header .downloadButtons.header {
 }
 
 @media (max-width: 620px) and (min-width: 375px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -325,7 +325,7 @@ header .downloadButtons.header {
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities {
+  main .main--funcionalities {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -336,54 +336,54 @@ header .downloadButtons.header {
   }
 }
 
-.mainContent main .main--funcionalities .macImage {
+main .main--funcionalities .macImage {
   margin-right: 8.5em;
 }
 
 @media (max-width: 374px) and (min-width: 320px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     text-align: center;
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 80%;
   }
 }
 
 @media (max-width: 620px) and (min-width: 375px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     text-align: center;
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 80%;
   }
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities .macImage {
+  main .main--funcionalities .macImage {
     margin: 3.5em 0 3.5em 0;
   }
-  .mainContent main .main--funcionalities .macImage img {
+  main .main--funcionalities .macImage img {
     width: 35em;
   }
 }
 
-.mainContent main .main--funcionalities .funcionalities ul {
+main .main--funcionalities .funcionalities ul {
   list-style: none;
 }
 
 @media (max-width: 1200px) and (min-width: 621px) {
-  .mainContent main .main--funcionalities .funcionalities ul {
+  main .main--funcionalities .funcionalities ul {
     text-align: center;
   }
 }
 
-.mainContent main .main--funcionalities .funcionalities ul h3 {
+main .main--funcionalities .funcionalities ul h3 {
   margin-bottom: 1em;
 }
 
-.mainContent main .main--funcionalities .funcionalities ul li {
+main .main--funcionalities .funcionalities ul li {
   margin-bottom: 2.5em;
 }
 

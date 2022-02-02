@@ -1,7 +1,6 @@
 @import 'colors';
 @import 'mixins';
 @import 'responsiveness';
-.mainContent{
     main{
         @include flexCenter;
         flex-direction: column;
@@ -72,4 +71,3 @@
             }
         }
     }
-}
